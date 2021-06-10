@@ -1,0 +1,32 @@
+{
+  "name" : "webtoolshealth/php-coding-standard",
+  "description" : "PHP Coding standards ruleset",
+  "keywords" : [
+    "coding-standard",
+    "webtools",
+    "psr-12",
+    "clean-code"
+  ],
+  "homepage" : "https://github.com/wt-health/php-coding-standard",
+  "license" : "MIT",
+  "authors" : [
+    {
+      "name" : "Byron Adams",
+      "email" : "byron@webtools.co.nz",
+      "homepage" : "https://webtools.health",
+      "role" : "Developer"
+    }
+  ],
+  "require" : {
+    "php" : "^7.4|^8.0",
+    "ext-json": "*",
+    "symplify/easy-coding-standard": "^9.3"
+  },
+  "autoload" : {
+    "psr-4" : {
+      "Webtoolshealth\\CodingStandard\\" : "src"
+    }
+  },
+  "minimum-stability" : "dev",
+  "prefer-stable" : true
+}
