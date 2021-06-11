@@ -7,7 +7,7 @@ Example Configuration
 --------------
 
 ```bash
- composer require wthealth/laravel-enum-transformer
+ composer require webtoolshealth/php-coding-standard
 ```
 
 Create a new file called `ecs.php` in the root of your project
