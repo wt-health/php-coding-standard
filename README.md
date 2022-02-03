@@ -31,6 +31,8 @@ return static function (ContainerConfigurator $container): void {
         __DIR__ . '/tests',
     ]);
 
+    $parameters->set(Option::PARALLEL, true);
+    
     $container->import(Set::WEBTOOLS_CODING_STANDARD);
 };
 ```
