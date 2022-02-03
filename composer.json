@@ -20,7 +20,7 @@
   "require" : {
     "php" : "^7.4|^8.0",
     "ext-json": "*",
-    "symplify/easy-coding-standard": "^9.3"
+    "symplify/easy-coding-standard": "^9.4"
   },
   "autoload" : {
     "psr-4" : {
